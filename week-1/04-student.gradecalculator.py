@@ -13,4 +13,4 @@ for student in students:
 for student in students:
     total_score = sum(scores[student].values())
     average_score = total_score / 3
-    print(f"{student}'s total score is {total_score}, and their average score is {average_score:.2f}.")
+    print(f"{student}'s total score is {total_score} and their average score is {average_score:.2f}.")
